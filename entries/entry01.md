@@ -13,13 +13,12 @@ After considering between [Google Script App](https://www.google.com/script/star
 * Compare the earnings - spent
 * An average of how much is spent a year
 * Comparison of each months spending
-* Similar to a spread sheet but with more elements
+* Similar format to a spread sheet but with more elements
 
 ### Extra:
 * Customize coloring for the web
 * Customize font
 * Graphs for data
-* 
 
 ### <b> Before That</b>
 Before creating my freedom project, I would need some practice with firebase to be confident and successful during the process so as through trials and failures, I been playing around with setting an authentication for google logins. I learned that in firebase, there's a lot of enables and disable needed to be done because I missed a step which was to enable my google logins when I wrote out a short script for getting a sign in button to work and hide the password the page won't load. So, I repeated my process and saw that missed step. It's very useful with a [videos](https://fireship.io/lessons/the-ultimate-beginners-guide-to-firebase/) to follow along!
