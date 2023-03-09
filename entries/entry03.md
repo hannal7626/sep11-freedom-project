@@ -4,8 +4,7 @@
 ## Learn & Build 
 
 Content: <br>
-I tired practicing with realtime database again since that's what I need for my project. Along with [Write data in a firebase realtime database with javascript](https://www.youtube.com/watch?v=VXWmJsv1Vh4) as guidence. After adding the config and attaching firebase. 
-I wanted to save names, so I made an `input` for the `namefield` and a `button` for submitting with the code below. <br>
+I tried practicing with real-time databases again since that's what I need for my project. Along with [Write data in a firebase real-time database with javascript](https://www.youtube.com/watch?v=VXWmJsv1Vh4) as guidance, I worked on configuration.  After adding the config and attaching firebase, I wanted to save names so I made an `input` for the `namefield` and a `button` for submitting with the code below. <br>
 <img src="img/name-html.png"> <br>
 Then I wrote js code to make my button interactive when it is clicked and push that information to my project's database. <br>
 ```js
@@ -17,7 +16,7 @@ Then I wrote js code to make my button interactive when it is clicked and push t
                 firebaseRef.push('names')
             })
 ```
-This is the page with "Yala" being typed as the name:<br>
+This is the page with "Yala" typed as the name:<br>
 <img src="img/name-page.png"><br>
 And here is the result on the firebase website after clicking submit: <br>
 <img src="img/name-database.png"><br>
@@ -25,7 +24,7 @@ And here is the result on the firebase website after clicking submit: <br>
 Authentication: <br>
 Following a [video](https://www.youtube.com/watch?v=fgdpvwEWJ9M), I set up the page to get start saving the email and password in firebase's authentication section. This is my page before typing anything in the text inputs:<br>
 <img src="img/emailpass-page.png"><br>
-Then I write some js to connect my page to the tool firebase and the part I am using. I also create variables to grab a specific part of my page so that I can use it later for authentication. To make sure that I have no error, I use `console.log` to check the code. <br>
+Then I write some js to connect my page to the tool firebase and the part I am using. I also create variables to grab a specific part of my page, so that I can use it later for authentication. To make sure that I have no error, I use `console.log` to check the code. <br>
 
 ```js
 const firebaseApp = firebase.initializeApp({
@@ -61,17 +60,17 @@ Then to test the web, type in a test email and password for hello@gmail.com:<br>
 <img src="img/emailpass-text.png"><br>
 Open the console using inspect to check if the page is running correctly. <br>
 <img src="img/emailpass-console.png"><br>
-Great! This shows that the data is being trnasfered to firebase's authenication and if I open the authenication page it should show the new information. 
+Great! This shows that the data is being transferred to firebase's authentication and if I open the authentication page it should show the new information. 
 <img src="img/emailpass-work.png"><br>
 Just like above.
 From this exercise, I have a deeper understanding of how to initialize firebase, the most important is to always add the config in index.html and include which is being used. 
 
 
 Engineering Design Process:<br>
-This is the EDP of define, research and brainstorm the solution to get used to its syntax. It is important to do so since creating the plan for this project will be soon.In order to be skillful, I have to fully understand to intiialize between firebase and javascript so to limit error along my year long project. 
+This is the EDP of defining, researching, and brainstorming the solution to get used to its syntax. It is important to do so since creating the plan for this project will be soon. In order to be skillful, I have to fully understand how to initialize between firebase and javascript so as to limit errors along my year-long project. 
 
 Skill: <br>
-This is how to learn and debug. Problems came up while learning my tool and that was okay because I could debug it with the console's help. Also learn how to problem-solve instead of giving up. Though I might have fail to complete it the first time as long as I perserve and continue to research different parts of the tool, I am confident in my skill. 
+This is how to learn and debug. Problems came up while learning my tool and that was okay because I could debug it with the console's help. This taught to learn how to problem-solve instead of giving up. Though I might have failed to complete it the first time as long as I preserve and continue to research different parts of the tool, I am confident in my skill. 
 
 [Previous](entry02.md) | [Next](entry04.md)
 
