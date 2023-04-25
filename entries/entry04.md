@@ -96,6 +96,7 @@ auth.createUserWithEmailAndPassword(email, password)
 
 As of now, the code doesn't actually do much because this is only the set to make sure the user is typing a valid email and password. `createUserWithEmailAndPassword` is a property from firebase and it does exactly as it sounds. `.catch(err)` is used to make sure the email and password is written properly otherwise, the alert-- "Please write a valid email/valid password" appears to the user and in the console it will show me 
 <img src="img/console-login-err.png">
+Until, a valid email and password is pressed then the account will be saved in aunthenication of firebase.
 
 Engineering Design Process:<br>
 This is the EDP of creation. We have planned and started building the MVP page of our prototype. Also, the part to test and debug. 
