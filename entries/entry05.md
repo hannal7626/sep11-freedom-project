@@ -9,7 +9,7 @@ Evidence: code snippets, screenshots, etc
 Perview to what has been completed. I have set up imports for authenication and variables that I need to get the user's sign up information and store that in the aunthenication not firestore yet. That would be one of the last step because having it saved at aunthenication files could work fine. Now I am working on `getRedirectResult()` and `GoogleAuthProvider` to access it's token and created a sign out button. 
 
 [Google Access Token](https://firebase.google.com/docs/auth/web/google-signin): <br>
-I want to connect my app to the goole token so I would use GoogleProvider.
+I want to connect my app to the google token so I would use GoogleProvider.
 ``` js 
  auth.signInWithPopup(auth, googleProvider)
         .then((result) => {
@@ -19,6 +19,10 @@ I want to connect my app to the goole token so I would use GoogleProvider.
             // IdP data available using getAdditionalUserInfo(result)
             // ...
  ```
+This gives me google access token. 
+ <img src=img/ac.png>
+Doing gave me an error in console that I wan't sure of so I used my google skill to search up solutions related. In [github dicussions](https://github.com/firebase/firebase-js-sdk/issues/5878), I found out that although I stated where GoogleAuthProvider is being called from with `const googleProvider = new firebase.auth.GoogleAuthProvider();`, I haven't mention where its from. I have to include that in my import like ` import { getAuth, createUserWithEmailAndPassword, the oogleAuthProvider} from 'https://www.gstatic.com/firebasejs/9.20.0/firebase-auth.js'`.
+
 
 Sign out:<br>
 When a user signs in their account, they will have access to their past database but we also want them to be able to sign out and ensured that data is linked to their account only so someone else can't access it. We can use `.addEventListener` to listen to the click and run the signOut() that runs the auth's signOut(). 
