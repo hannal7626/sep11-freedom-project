@@ -9,6 +9,7 @@ Evidence: code snippets, screenshots, etc
 Perview to what has been completed. I have set up imports for authenication and variables that I need to get the user's sign up information and store that in the aunthenication not firestore yet. That would be one of the last step because having it saved at aunthenication files could work fine. Now I am working on `getRedirectResult()` and `GoogleAuthProvider` to access it's token and created a sign out button. 
 
 [Google Access Token](https://firebase.google.com/docs/auth/web/google-signin): <br>
+I want to connect my app to the goole token so I would use GoogleProvider.
 ``` js 
  auth.signInWithPopup(auth, googleProvider)
         .then((result) => {
@@ -19,7 +20,7 @@ Perview to what has been completed. I have set up imports for authenication and 
             // ...
  ```
 
-Sign out:
+Sign out:<br>
 When a user signs in their account, they will have access to their past database but we also want them to be able to sign out and ensured that data is linked to their account only so someone else can't access it. We can use `.addEventListener` to listen to the click and run the signOut() that runs the auth's signOut(). 
 ``` js
 document.querySelector("#signout").addEventListener('onclick', signOut);
@@ -36,7 +37,10 @@ document.querySelector("#signout").addEventListener('onclick', signOut);
 
         }
  ```
+ <img src=img/so.png>
+ And when the Sign Out Button is click, the user is informed that they have sign off. 
  
+
 ### Engineering Design Process:
 We are in step 4 of the engineering design process, building our app to be relivable and sustainable. 
 
