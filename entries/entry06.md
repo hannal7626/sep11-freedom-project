@@ -4,7 +4,7 @@
 <!-- Content –  -->
 ## Takeaway 
 ## → Expo
-To present our year-long project, my school held an expo where students present the product through an elevator pitch. On a side note, the product should be something that you enjoy and are proud of. During the expo, my group and I were excited to present our final product and I believe we did pretty nice since it was also my first time to collaborate with a team.
+To present our year-long project, my school held an expo where students present the product through an elevator pitch. On a side note, the product should be something that you enjoy and are proud of. During the expo, my teammates, [Yala](https://github.com/yalah5084), [David](https://github.com/davidkevinl7792), and I were excited to present our final product and I believe we did pretty nice since it was also my first time to collaborate with a team.
 After we presented our [elevator pitch](https://docs.google.com/document/d/1shpbxsAaWqFo6IPwKE7x8-eL-dwld0u93BSauyyvK1U/edit?usp=sharing), we discussed ways that we could have done to improve the quality of our elevator pitch. First, we should practice and get comfortable presenting which we have done but because we have different classes we didn't have the opportunity to do so together. Second, we should invite the audience to try the app. We experiemented with this and realized that when we invited people to try out web app, it attarcts more people to come. Lastly, remember you don't have to follow your plan word for word but stick with the main points. Sticking to the plan word for word can make your presesation sound ungenunie and the audience could lose interest so it's important to be true and honest.
 
 ## → In-class Presentation
